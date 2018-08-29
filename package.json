@@ -1,6 +1,6 @@
 {
   "name": "earth-fn",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "feature function",
   "main": "dist/index.umd.js",
   "module": "dist/index.es.js",
@@ -10,10 +10,15 @@
     "build:umd": "node build/build.umd.js",
     "build:es": "node build/build.es.js"
   },
-  "keywords": ["function"],
+  "keywords": [
+    "function"
+  ],
   "repository": {
     "type": "git",
     "url": "git@github.com:William-WFC/earth-fn.git"
+  },
+  "dependencies": {
+    "vue-touch": "^1.1.0"
   },
   "devDependencies": {
     "babel-core": "^6.26.3",
