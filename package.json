@@ -10,7 +10,11 @@
     "build:umd": "node build/build.umd.js",
     "build:es": "node build/build.es.js"
   },
-  "keywords": [],
+  "keywords": ["function"],
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:William-WFC/earth-fn.git"
+  },
   "devDependencies": {
     "babel-core": "^6.26.3",
     "babel-plugin-external-helpers": "^6.22.0",
