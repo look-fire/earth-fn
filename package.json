@@ -1,0 +1,26 @@
+{
+  "name": "earth-fn",
+  "version": "1.0.0",
+  "description": "feature function",
+  "main": "dist/index.umd.js",
+  "module": "dist/index.es.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "node build/build.umd.js && node build/build.es.js",
+    "build:umd": "node build/build.umd.js",
+    "build:es": "node build/build.es.js"
+  },
+  "keywords": [],
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-plugin-external-helpers": "^6.22.0",
+    "babel-plugin-lodash": "^3.3.4",
+    "babel-preset-env": "^1.7.0",
+    "rollup": "^0.52.3",
+    "rollup-plugin-babel": "^3.0.7",
+    "rollup-plugin-commonjs": "^8.4.1",
+    "rollup-plugin-node-resolve": "^3.3.0"
+  },
+  "author": "wfc",
+  "license": "ISC"
+}
