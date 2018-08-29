@@ -1,6 +1,6 @@
 {
   "name": "earth-fn",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "feature function",
   "main": "dist/index.umd.js",
   "module": "dist/index.es.js",
